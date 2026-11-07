@@ -1,0 +1,9 @@
+NOPEA KORJAUSTAPA
+
+1. Tallenna minulta saamasi korjaus.json samaan kansioon.
+2. Aja Terminalissa repositoryn kansiossa:
+   python3 korjaa_albumi.py korjaus.json
+3. Julkaise:
+   ./paivita_levyhylly.command "Korjaa albumitiedot"
+
+Vain albums.json muuttuu. index.html-tiedostoa ei tarvitse enää vaihtaa jokaisessa korjauksessa.
